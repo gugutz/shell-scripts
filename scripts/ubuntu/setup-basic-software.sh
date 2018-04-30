@@ -35,13 +35,8 @@ wget -q -O - http://liveusb.info/multisystem/depot/multisystem.asc | sudo apt-ke
 ## APPS DE IMAGEM
 
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp -y
-sudo add-apt-repository ppa:inkscape.dev/stable -y 
+sudo add-apt-repository ppa:inkscape.dev/stable -y
 sudo add-apt-repository ppa:thomas-schiex/blender -y
-
-## APPS DE ASTRONOMIA
-
-sudo add-apt-repository ppa:lock042/siril -y #SIRIL
-sudo apt-add-repository ppa:mutlaqja/ppa -y #KSTARS
 
 
 echo "Finished importing repository keys"
@@ -176,7 +171,7 @@ function instalarJogos(){
 		  ./install-gaming.sh
 		fi
 	}
-	
+
 ## Pergunta se o usuário deseja instalar o script de jogos
 function instalarNetTools(){
 	read -p "Deseja instalar net tools? $foo? [yn]" answer
@@ -184,8 +179,8 @@ function instalarNetTools(){
 		  ./install-nettools.sh
 		fi
 	}
-	
-	
+
+
 echo ########################################
 echo ## FINALIZANDO
 echo ########################################
