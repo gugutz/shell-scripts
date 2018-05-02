@@ -16,16 +16,21 @@ It installs the following software:
 * Telegram
 
 **A esthetical Enhancements Tools**
-* Conky (for ricing things up!)
+* Conky
 * neofetch
 * screenfetch
+* Pack of fonts for conky
+* Hack TTF to use in monospaced font enviroments
+* [My Conky Setup](https://github.com/gugutz/conky-setup)
+**Fun Unix Tools**
 * linux_logo
 * cmatrix
 * figlet
 * toilet
-* Pack of fonts for conky
-* Hack TTF to use in monospaced font enviroments
-
+* cowsay
+* xcowsay
+* sl
+* aafire
 
 **Dev tools**
 * Visual Studio Code
